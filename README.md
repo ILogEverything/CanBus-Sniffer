@@ -41,7 +41,7 @@ Set your preferred language by editing the `LOCALE` value in `config.h`:
 //#define LOCALE EN  // English (default)
 ```
 ---
-## OUTPUT
+## 📤 OUTPUT
 
 Each received CAN frame is printed to the serial port in the format:
 
@@ -51,20 +51,29 @@ ID: 0x123  DLC: 8  Data: 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
 Note: Due to library internals, extended IDs may appear to start with 0x8 or 0x9. This is not a bug — just a display artifact from the 29-bit format.
 
 ---
-## License
+## 📄 License
+
+Custom Non-Commercial License
+Copyright (c) 2025 Giampiero
 
 1. License Grant
 
-This software is provided free of charge and may be used for personal and non-commercial purposes only. Any commercial use, distribution, or resale of this software is strictly prohibited without the explicit written consent of the author.
+This software is provided free of charge and may be used strictly for personal, educational, or non-commercial purposes.  
+Any commercial use, resale, or distribution of this software—whether in original or modified form—is strictly prohibited without the explicit written consent of the author.
 
 2. Restrictions
 
-Redistribution of the software is allowed only in its original, unmodified form and for non-commercial purposes.
+Redistribution is permitted only in its original, unmodified form, and exclusively for non-commercial use.  
+You may not sublicense, sell, or bundle this software in any product or service intended for commercial distribution.
 
 3. Disclaimer of Warranty
 
-This software is provided "as is", without any express or implied warranties. The author assumes no responsibility for any damages, direct or indirect, that may arise from the use of this software.
+This software is provided "as is", without any express or implied warranties, including but not limited to merchantability, fitness for a particular purpose, or non-infringement.  
+Use it at your own risk.
 
-4. Liability Limitation
+4. Limitation of Liability
 
-By using this software, you agree that the author is not liable for any issues, malfunctions, data loss, or damages caused by its use.
+In no event shall the author be held liable for any damage, data loss, malfunction, or legal claims resulting from the use, misuse, or inability to use this software.
+
+For commercial licensing inquiries, please contact the author.
+
