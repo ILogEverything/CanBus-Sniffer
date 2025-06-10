@@ -15,7 +15,7 @@ Simple setup via `config.h` — no need to modify the main source file.
 
 ## 🚀 Quick Setup
 
-0. install https://github.com/coryjfowler/MCP_CAN_lib
+0. Install https://github.com/coryjfowler/MCP_CAN_lib
 1. Clone or download the project
 2. Open `config.h`
 3. Set the following:
