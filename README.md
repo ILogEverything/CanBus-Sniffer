@@ -38,7 +38,7 @@ Set your preferred language by editing the `LOCALE` value in `config.h`:
 //#define LOCALE PT  // Portuguese
 //#define LOCALE NL  // Dutch
 //#define LOCALE EN  // English (default)
-
+```
 ---
 ## OUTPUT
 
@@ -46,5 +46,5 @@ Each received CAN frame is printed to the serial port in the format:
 
 ```c
 ID: 0x123  DLC: 8  Data: 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
-
+```
 Note: Due to library internals, extended IDs may appear to start with 0x8 or 0x9. This is not a bug — just a display artifact from the 29-bit format.
